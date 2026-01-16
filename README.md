@@ -94,6 +94,7 @@ Campos obligatorios
 | ---------------- | ------------------- | ------------------- |
 | `participant_id` | string              | Identificador único |
 | `test_date`      | string (YYYY-MM-DD) | Fecha de evaluación |
+| `language        | string              | Idioma              |
 | `composite_1`    | number              | Score compuesto     |
 | `composite_2`    | number              | Score compuesto     |
 | `composite_3`    | number              | Score compuesto     |
@@ -102,7 +103,6 @@ Campos obligatorios
 Campos opcionales
 | Campo      | Tipo   |
 | ---------- | ------ |
-| `language` | string |
 | `sex`      | string |
 | `age`      | number |
 | `role`     | string |
@@ -121,11 +121,11 @@ Selección de rol único o en blanco
 7.2 Clasificación de riesgo
 El riesgo no proviene del JSON. Se calcula en tiempo real mediante un algoritmo basado en terciles:
 
-Puntajes bajos → High Risk
+Puntajes bajos → Unconcerning
 
-Puntajes medios → At Risk
+Puntajes medios → Monitor
 
-Puntajes altos → Normal
+Puntajes altos → Check
 
 7.3 Análisis temporal (Before/After)
 A partir de una fecha evento seleccionada por el usuario:
