@@ -1,0 +1,131 @@
+[
+  {
+    "participant_id": "P001",
+    "language": "es",
+    "sex": "F",
+    "age": 34,
+    "role": "Administración",
+    "test_date": "2024-01-15",
+    "composite_1": 42.5,
+    "composite_2": 38.2,
+    "composite_3": 35.7
+  },
+  {
+    "participant_id": "P001",
+    "language": "es",
+    "sex": "F",
+    "age": 34,
+    "role": "Administración",
+    "test_date": "2024-03-20",
+    "composite_1": 45.1,
+    "composite_2": 40.0,
+    "composite_3": 36.9
+  },
+  {
+    "participant_id": "P001",
+    "language": "es",
+    "sex": "F",
+    "age": 34,
+    "role": "Administración",
+    "test_date": "2024-06-10",
+    "composite_1": 47.3,
+    "composite_2": 41.7,
+    "composite_3": 38.1
+  },
+  {
+    "participant_id": "P002",
+    "language": "es",
+    "sex": "M",
+    "age": 52,
+    "role": "Mantenimiento",
+    "test_date": "2024-01-15",
+    "composite_1": 38.4,
+    "composite_2": 35.9,
+    "composite_3": 29.1
+  },
+  {
+    "participant_id": "P002",
+    "language": "es",
+    "sex": "M",
+    "age": 52,
+    "role": "Mantenimiento",
+    "test_date": "2024-04-18",
+    "composite_1": 40.2,
+    "composite_2": 37.5,
+    "composite_3": 30.6
+  },
+  {
+    "participant_id": "P003",
+    "language": "es",
+    "sex": "F",
+    "age": 61,
+    "role": "Comercial",
+    "test_date": "2024-02-10",
+    "composite_1": 50.0,
+    "composite_2": 47.8,
+    "composite_3": 42.2
+  },
+  {
+    "participant_id": "P003",
+    "language": "es",
+    "sex": "F",
+    "age": 61,
+    "role": "Comercial",
+    "test_date": "2024-05-12",
+    "composite_1": 48.7,
+    "composite_2": 46.1,
+    "composite_3": 41.0
+  },
+  {
+    "participant_id": "P004",
+    "language": "es",
+    "sex": "M",
+    "age": 29,
+    "role": "Ingeniería",
+    "test_date": "2024-03-03",
+    "composite_1": 36.9,
+    "composite_2": 33.2,
+    "composite_3": 28.0
+  },
+  {
+    "participant_id": "P004",
+    "language": "es",
+    "sex": "M",
+    "age": 29,
+    "role": "Ingeniería",
+    "test_date": "2024-07-14",
+    "composite_1": 37.4,
+    "composite_2": 34.1,
+    "composite_3": 29.3
+  },
+  {
+    "participant_id": "P005",
+    "language": "es",
+    "sex": "F",
+    "age": 45,
+    "role": "RRHH",
+    "test_date": "2024-01-22",
+    "composite_1": 41.0,
+    "composite_2": 39.0,
+    "composite_3": 34.5
+  },
+  {
+    "participant_id": "P001",
+    "language": "es",
+    "sex": "F",
+    "age": 34,
+    "role": "Administración",
+    "test_date": "2024-01-15",
+    "composite_1": 42.5,
+    "composite_2": 38.2,
+    "composite_3": 35.7
+  },
+  {
+    "participant_id": "P006",
+    "language": "es",
+    "test_date": "2024-02-11",
+    "composite_1": 39.0,
+    "composite_2": 37.2,
+    "composite_3": 33.8
+  }
+]
