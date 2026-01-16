@@ -107,6 +107,10 @@ Campos opcionales
 | `age`      | number |
 | `role`     | string |
 
+-----------------------------
+
+Se pueden usar los archivos "test_dashboard_data_modelo.json" o "test_dashboard_data_modelo blank" que se encuentran en el main para probar el funcionamiento del dashboard.
+
 
 7. Lógica de Procesamiento y Visualización
 7.1 Filtrado dinámico
