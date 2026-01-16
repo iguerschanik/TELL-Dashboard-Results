@@ -20,7 +20,7 @@ La aplicación permite explorar tendencias grupales e individuales, aplicar filt
 - Vista general con KPIs poblacionales.
 - Gráfico temporal de evolución de composites.
 - Análisis Before/After basado en una fecha evento configurable.
-- Clasificación automática de riesgo mediante terciles (Normal, At Risk, High Risk).
+- Clasificación automática de riesgo mediante terciles (Unconcerning, Monitor, Check).
 - Vista individual por participante.
 - Exportación del estado del dashboard como imagen PNG.
 - Procesamiento 100% en el cliente (sin envío de datos a servidores).
@@ -89,12 +89,13 @@ El dashboard recibe un array de registros con la siguiente estructura:
     "composite_3": 35.7
   }
 ]
+```
 Campos obligatorios
 | Campo            | Tipo                | Descripción         |
 | ---------------- | ------------------- | ------------------- |
-| `participant_id` | string              | Identificador único |
-| `test_date`      | string (YYYY-MM-DD) | Fecha de evaluación |
-| `language        | string              | Idioma              |
+|  participant_id  | string              | Identificador único |
+|  test_date       | string (YYYY-MM-DD) | Fecha de evaluación |
+|  language        | string              | Idioma              |
 | `composite_1`    | number              | Score compuesto     |
 | `composite_2`    | number              | Score compuesto     |
 | `composite_3`    | number              | Score compuesto     |
@@ -103,9 +104,9 @@ Campos obligatorios
 Campos opcionales
 | Campo      | Tipo   |
 | ---------- | ------ |
-| `sex`      | string |
-| `age`      | number |
-| `role`     | string |
+|  sex       | string |
+|  age       | number |
+| role       | string |
 
 -----------------------------
 
