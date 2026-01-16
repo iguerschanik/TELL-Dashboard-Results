@@ -110,9 +110,9 @@ Campos opcionales
 -----------------------------
 
 Se pueden usar los archivos "test_dashboard_data_modelo.json" o "test_dashboard_data_modelo blank" que se encuentran en el main para probar el funcionamiento del dashboard.
+--- 
 
-
-7. Lógica de Procesamiento y Visualización
+## 7. Lógica de Procesamiento y Visualización
 7.1 Filtrado dinámico
 Los filtros se aplican mediante useMemo sobre originalRecords. Permiten:
 
@@ -149,7 +149,7 @@ Registros ordenados por fecha
 
 Comparación con el contexto grupal
 
-8. Arquitectura de Datos
+## 8. Arquitectura de Datos
 
 JSON cargado
       ↓
@@ -165,7 +165,9 @@ Cálculos derivados:
       ↓
 Visualizaciones (gráficos, tablas, KPIs)
 
-9. Ejecución del Proyecto
+---
+
+## 9. Ejecución del Proyecto
 Requisitos previos
 Node.js 18.17 o superior
 
@@ -180,8 +182,9 @@ Acceder en:
 
 http://localhost:3000
 
+---
 
-10. Alcance y Limitaciones
+## 10. Alcance y Limitaciones
 Este dashboard es adecuado para:
 Visualización exploratoria de datos longitudinales.
 
@@ -200,8 +203,12 @@ Procesamiento de volúmenes muy grandes (>10.000 registros).
 
 Colaboración multiusuario simultánea.
 
-11. Agradecimientos
+---
+
+## 11. Agradecimientos
 
 Al Ing. Fernando Johann, tutor del proyecto.
 
 A la cátedra del PFC de Bioingeniería del ITBA.
+
+---
